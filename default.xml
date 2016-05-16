@@ -38,6 +38,12 @@
            remote="cyanogenmod"
            sync-c="true"
            sync-j="4" />
+           
+  <!-- KYLEPROXX -->
+  <project path="device/samsung/kylepro" name="SandPox/android_device_samsung_kylepro" remote="github" revision="cm-12.1" />
+  <project path="device/samsung/kyleprods" name="SandPox/android_device_samsung_kyleprods" remote="github" revision="cm-12.1" />
+  <project path="kernel/samsung/kyleproxx" name="SandPox/android_kernel_samsung_kyleproxx" remote="github" revision="cm-12.1" />
+  <project path="vendor/samsung/kyleproxx" name="SandPox/android_vendor_samsung_kyleproxx" remote="github" revision="master" />
 
   <!-- Tesla OS -->
   <project path="build" name="android_build" remote="teslaos" groups="pdk,tradefed" >
